@@ -11,7 +11,7 @@ public class BAMSapp {
         prompt.mainPrompt(0);
         int decision = main_sc.nextInt();
         while (true) {
-            if (decision < 1 || decision > 6) {
+            if (decision < 1 || decision > 5) {
                 prompt.mainPrompt(1);
                 decision = main_sc.nextInt();
             } else {
